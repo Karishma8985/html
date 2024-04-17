@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(rgb(241, 241, 146),rgb(235, 146, 146))
+}
+form{
+    width: 200px;
+}
+label{
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid gray;
+    /* background-color: rgb(247, 168, 237); */
+    color: black;
+}
+input[type="text"]{
+    width: 190px;
+    margin: 5px 0px;
+   
+}
+input[type="email"]{
+    width: 190px;
+    margin: 5px 0px;
+   
+}
+input[type="date"]{
+    width: 190px;
+    margin: 5px 0px;
+   
+}
+input[type="submit"]{
+    width: 100px;
+    margin: 5px 0px;
+    background-color: rgb(243, 115, 68);
+}
+button{
+    width: 80px;
+    margin: 5px 0px;
+    background-color: rgb(243, 115, 68);
+}
+button a{
+    text-decoration: none;
+    color: black;
+}

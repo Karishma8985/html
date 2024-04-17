@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var maths=79;
+        var eng=67;
+        var hindi=78;
+        var sci=56;
+        var total,per;
+        var nationality="abd",age=34;
+        total=eng+sci+maths+hindi;
+        document.write("total= "+ total+"<br>");
+        
+        per=(total*100)/400;
+        document.write("per= "+per+"<br>");
+
+        if(per<35)
+        {
+            document.write("You are fail.");
+        }
+        else if(per>=35 && per<50)
+        {
+            document.write("You got d grade.");
+        }
+        else if(per>=50 && per<70)
+        {
+            document.write("You got c grade.");
+        }
+        else if(per>=70 && per<80)
+        {
+            document.write("You got b grade.");
+        }
+        else{
+            document.write("You got a grade.");
+        }
+
+        if(nationality=="Indian"){
+            if(age>=18){
+                document.write("You are eligible for votting.");
+            }
+            else{
+                document.write("You are so small for votting")
+            }
+        
+         }
+    else{
+        document.write("You r not eligible for votting.")
+    }
+
+    var national = prompt("enter a value");
+    var age1= parseInt(prompt("enter a age value"));
+    if(national=="Indian"){
+        if(age1>=18){
+            document.write("You are eligible for votting.");
+        }
+        else{
+            document.write("You are so small for votting")
+        }
+    
+     }
+else{
+    document.write("You r not eligible for votting.")
+}
+    </script>
+</body>
+</html>

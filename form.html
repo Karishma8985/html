@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <link rel="stylesheet" href="style/style.css"> -->
+</head>
+<body>
+    <form>
+        <fieldset>
+        <label for="">First Name: </label>
+        <input type="text" placeholder="first name" required><br><br>
+        
+        <label for="">Middlename: </label>
+        <input type="text" placeholder="middlename"><br><br>
+
+        <label for="">Last Name: </label>
+        <input type="text" placeholder="last name" required><br><br>
+        </fieldset>
+        <fieldset>
+        <label for="">E-mail: </label>
+        <input type="email" placeholder="email" required><br><br>
+
+        <label for="">Mobile No.:</label>
+        <input type="number" placeholder="number" required><br><br>
+
+        <label for="">Date of Birth</label>
+        <input type="date" placeholder="date of birth" required><br><br>
+       
+        <label for="">appoinment</label>
+        <input type="datetime-local"><br><br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender">Male <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input type="radio" name="gender">Female <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input type="radio" name="gender">Others <br>   <br>    <!--- for desplaying option box , can select one option at one time -->
+
+        <label for="">Address</label>
+        <textarea name="address" cols="0" rows="10"></textarea><br><br>
+
+        <label for="">education</label>
+        <select name="education" id="education">
+            <option value="1">Primary</option>
+            <option value="2">secondary</option>
+            <option value="3">higher secondary</option>
+            <option value="4">graduate</option>
+        </select><br><br>
+
+        <label for="">file upload</label>
+        <input type="file" multiple><br> <br>  <!--add multiple if u want multiple file-->
+
+        <label for="">password</label>
+        <input type="password"><br><br>           <!--- for desplaying password box-->
+
+        <label for="">Hobbies</label><br>     <!--- for desplaying checkbox option-->
+        <input type="checkbox">Music <br>
+        <input type="checkbox">Movie <br>
+        <input type="checkbox">Drawing <br> 
+        <input type="checkbox">Sports <br>
+
+        <input type="month"> <br>   <!--- for desplaying only month in calender-->
+
+        <input type="week"> <br>   <!--- for desplaying only week in calender-->
+
+        <input type="range"> <br>    <!--- for desplaying only range value-->
+
+        <input type="search"> <br>   <!--- for desplaying search box-->
+
+        <input type="color"><br>       <!---For displaying colorbox.-->
+        
+        <input type="submit" value="Register">
+
+        
+        <input type="submit">
+        <button type="button"><a href="signin.html">Sign In</a></button>
+    </fieldset>
+    </form>
+    <!-- <img src="images/2.jpg" alt=""> -->
+</body>
+</html>
